@@ -1997,7 +1997,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 3100 13600 3100
 Wire Wire Line
-	14000 3000 14200 3000
+	14000 3000 14100 3000
 Wire Wire Line
 	14800 3000 15300 3000
 $Comp
@@ -2101,7 +2101,7 @@ Special: Reconfigure\nto open-drain
 Wire Wire Line
 	14800 4300 15800 4300
 Wire Wire Line
-	14900 4100 15800 4100
+	14900 4100 15700 4100
 Wire Wire Line
 	12600 8600 12600 7400
 Connection ~ 12600 7400
@@ -2429,4 +2429,13 @@ Wire Notes Line
 	6000 10800 6000 9200
 Wire Notes Line
 	6000 9200 5200 9200
+Wire Wire Line
+	15800 4300 15800 2800
+Wire Wire Line
+	15800 2800 14100 2800
+Wire Wire Line
+	14100 2800 14100 3000
+Connection ~ 14100 3000
+Wire Wire Line
+	14100 3000 14200 3000
 $EndSCHEMATC
