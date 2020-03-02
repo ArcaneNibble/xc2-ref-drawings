@@ -1,0 +1,2432 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "CoolRunner-II Notes"
+Date "2020-03-01"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L syms:MUXn U?
+U 1 1 5E5C6A18
+P 1100 1200
+F 0 "U?" V 1054 1528 50  0001 L CNN
+F 1 "ZIA0" V 1100 1528 50  0000 L CNN
+F 2 "" H 1000 1200 50  0001 C CNN
+F 3 "" H 1000 1200 50  0001 C CNN
+	1    1100 1200
+	0    1    1    0   
+$EndComp
+Text Label 1200 2000 1    50   ~ 0
+ZIA_OUTPUT_0
+$Comp
+L syms:MUXn U?
+U 1 1 5E5C9E22
+P 1900 1200
+F 0 "U?" V 1854 1528 50  0001 L CNN
+F 1 "ZIA1" V 1900 1528 50  0000 L CNN
+F 2 "" H 1800 1200 50  0001 C CNN
+F 3 "" H 1800 1200 50  0001 C CNN
+	1    1900 1200
+	0    1    1    0   
+$EndComp
+Text Label 2000 2000 1    50   ~ 0
+ZIA_OUTPUT_1
+$Comp
+L syms:MUXn U?
+U 1 1 5E5CC09E
+P 2700 1200
+F 0 "U?" V 2654 1528 50  0001 L CNN
+F 1 "ZIA2" V 2700 1528 50  0000 L CNN
+F 2 "" H 2600 1200 50  0001 C CNN
+F 3 "" H 2600 1200 50  0001 C CNN
+	1    2700 1200
+	0    1    1    0   
+$EndComp
+Text Label 2800 2000 1    50   ~ 0
+ZIA_OUTPUT_2
+$Comp
+L syms:MUXn U?
+U 1 1 5E5CD250
+P 4000 1200
+F 0 "U?" V 3954 1528 50  0001 L CNN
+F 1 "ZIA39" V 4000 1528 50  0000 L CNN
+F 2 "" H 3900 1200 50  0001 C CNN
+F 3 "" H 3900 1200 50  0001 C CNN
+	1    4000 1200
+	0    1    1    0   
+$EndComp
+Text Label 4100 2000 1    50   ~ 0
+ZIA_OUTPUT_39
+Text Notes 3300 1200 0    300  ~ 0
+...
+Wire Wire Line
+	800  2300 4500 2300
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E5D38B0
+P 4800 2400
+F 0 "U?" H 4800 2717 50  0001 C CNN
+F 1 "PT0" H 4800 2625 50  0000 C CNN
+F 2 "" H 4800 2400 200 0001 C CNN
+F 3 "" H 4800 2400 200 0001 C CNN
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2500 800  2500
+Wire Notes Line
+	4150 2250 4050 2250
+Wire Notes Line
+	4050 2250 4050 2350
+Wire Notes Line
+	4050 2350 4150 2350
+Wire Notes Line
+	4150 2350 4150 2250
+Wire Notes Line
+	2850 2250 2750 2250
+Wire Notes Line
+	2750 2250 2750 2350
+Wire Notes Line
+	2750 2350 2850 2350
+Wire Notes Line
+	2850 2350 2850 2250
+Wire Notes Line
+	2050 2250 1950 2250
+Wire Notes Line
+	1950 2250 1950 2350
+Wire Notes Line
+	1950 2350 2050 2350
+Wire Notes Line
+	2050 2350 2050 2250
+Wire Notes Line
+	1250 2250 1150 2250
+Wire Notes Line
+	1150 2250 1150 2350
+Wire Notes Line
+	1150 2350 1250 2350
+Wire Notes Line
+	1250 2350 1250 2250
+Wire Notes Line
+	1150 2450 1150 2550
+Wire Notes Line
+	1150 2550 1250 2550
+Wire Notes Line
+	1250 2550 1250 2450
+Wire Notes Line
+	1250 2450 1150 2450
+Wire Notes Line
+	1950 2450 1950 2550
+Wire Notes Line
+	1950 2550 2050 2550
+Wire Notes Line
+	2050 2550 2050 2450
+Wire Notes Line
+	2050 2450 1950 2450
+Wire Notes Line
+	2750 2450 2750 2550
+Wire Notes Line
+	2750 2550 2850 2550
+Wire Notes Line
+	2850 2550 2850 2450
+Wire Notes Line
+	2850 2450 2750 2450
+Wire Notes Line
+	4050 2450 4050 2550
+Wire Notes Line
+	4050 2550 4150 2550
+Wire Notes Line
+	4150 2550 4150 2450
+Wire Notes Line
+	4150 2450 4050 2450
+Wire Wire Line
+	800  2900 4500 2900
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E5EF30E
+P 4800 3000
+F 0 "U?" H 4800 3317 50  0001 C CNN
+F 1 "PT1" H 4800 3225 50  0000 C CNN
+F 2 "" H 4800 3000 200 0001 C CNN
+F 3 "" H 4800 3000 200 0001 C CNN
+	1    4800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3100 800  3100
+Wire Notes Line
+	4150 2850 4050 2850
+Wire Notes Line
+	4050 2850 4050 2950
+Wire Notes Line
+	4050 2950 4150 2950
+Wire Notes Line
+	4150 2950 4150 2850
+Wire Notes Line
+	2850 2850 2750 2850
+Wire Notes Line
+	2750 2850 2750 2950
+Wire Notes Line
+	2750 2950 2850 2950
+Wire Notes Line
+	2850 2950 2850 2850
+Wire Notes Line
+	2050 2850 1950 2850
+Wire Notes Line
+	1950 2850 1950 2950
+Wire Notes Line
+	1950 2950 2050 2950
+Wire Notes Line
+	2050 2950 2050 2850
+Wire Notes Line
+	1250 2850 1150 2850
+Wire Notes Line
+	1150 2850 1150 2950
+Wire Notes Line
+	1150 2950 1250 2950
+Wire Notes Line
+	1250 2950 1250 2850
+Wire Notes Line
+	1150 3050 1150 3150
+Wire Notes Line
+	1150 3150 1250 3150
+Wire Notes Line
+	1250 3150 1250 3050
+Wire Notes Line
+	1250 3050 1150 3050
+Wire Notes Line
+	1950 3050 1950 3150
+Wire Notes Line
+	1950 3150 2050 3150
+Wire Notes Line
+	2050 3150 2050 3050
+Wire Notes Line
+	2050 3050 1950 3050
+Wire Notes Line
+	2750 3050 2750 3150
+Wire Notes Line
+	2750 3150 2850 3150
+Wire Notes Line
+	2850 3150 2850 3050
+Wire Notes Line
+	2850 3050 2750 3050
+Wire Notes Line
+	4050 3050 4050 3150
+Wire Notes Line
+	4050 3150 4150 3150
+Wire Notes Line
+	4150 3150 4150 3050
+Wire Notes Line
+	4150 3050 4050 3050
+Wire Wire Line
+	800  3500 4500 3500
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E5F313B
+P 4800 3600
+F 0 "U?" H 4800 3917 50  0001 C CNN
+F 1 "PT2" H 4800 3825 50  0000 C CNN
+F 2 "" H 4800 3600 200 0001 C CNN
+F 3 "" H 4800 3600 200 0001 C CNN
+	1    4800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3700 800  3700
+Wire Notes Line
+	4150 3450 4050 3450
+Wire Notes Line
+	4050 3450 4050 3550
+Wire Notes Line
+	4050 3550 4150 3550
+Wire Notes Line
+	4150 3550 4150 3450
+Wire Notes Line
+	2850 3450 2750 3450
+Wire Notes Line
+	2750 3450 2750 3550
+Wire Notes Line
+	2750 3550 2850 3550
+Wire Notes Line
+	2850 3550 2850 3450
+Wire Notes Line
+	2050 3450 1950 3450
+Wire Notes Line
+	1950 3450 1950 3550
+Wire Notes Line
+	1950 3550 2050 3550
+Wire Notes Line
+	2050 3550 2050 3450
+Wire Notes Line
+	1250 3450 1150 3450
+Wire Notes Line
+	1150 3450 1150 3550
+Wire Notes Line
+	1150 3550 1250 3550
+Wire Notes Line
+	1250 3550 1250 3450
+Wire Notes Line
+	1150 3650 1150 3750
+Wire Notes Line
+	1150 3750 1250 3750
+Wire Notes Line
+	1250 3750 1250 3650
+Wire Notes Line
+	1250 3650 1150 3650
+Wire Notes Line
+	1950 3650 1950 3750
+Wire Notes Line
+	1950 3750 2050 3750
+Wire Notes Line
+	2050 3750 2050 3650
+Wire Notes Line
+	2050 3650 1950 3650
+Wire Notes Line
+	2750 3650 2750 3750
+Wire Notes Line
+	2750 3750 2850 3750
+Wire Notes Line
+	2850 3750 2850 3650
+Wire Notes Line
+	2850 3650 2750 3650
+Wire Notes Line
+	4050 3650 4050 3750
+Wire Notes Line
+	4050 3750 4150 3750
+Wire Notes Line
+	4150 3750 4150 3650
+Wire Notes Line
+	4150 3650 4050 3650
+Wire Wire Line
+	800  4100 4500 4100
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E5F8F0D
+P 4800 4200
+F 0 "U?" H 4800 4517 50  0001 C CNN
+F 1 "PT3" H 4800 4425 50  0000 C CNN
+F 2 "" H 4800 4200 200 0001 C CNN
+F 3 "" H 4800 4200 200 0001 C CNN
+	1    4800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4300 800  4300
+Wire Notes Line
+	4150 4050 4050 4050
+Wire Notes Line
+	4050 4050 4050 4150
+Wire Notes Line
+	4050 4150 4150 4150
+Wire Notes Line
+	4150 4150 4150 4050
+Wire Notes Line
+	2850 4050 2750 4050
+Wire Notes Line
+	2750 4050 2750 4150
+Wire Notes Line
+	2750 4150 2850 4150
+Wire Notes Line
+	2850 4150 2850 4050
+Wire Notes Line
+	2050 4050 1950 4050
+Wire Notes Line
+	1950 4050 1950 4150
+Wire Notes Line
+	1950 4150 2050 4150
+Wire Notes Line
+	2050 4150 2050 4050
+Wire Notes Line
+	1250 4050 1150 4050
+Wire Notes Line
+	1150 4050 1150 4150
+Wire Notes Line
+	1150 4150 1250 4150
+Wire Notes Line
+	1250 4150 1250 4050
+Wire Notes Line
+	1150 4250 1150 4350
+Wire Notes Line
+	1150 4350 1250 4350
+Wire Notes Line
+	1250 4350 1250 4250
+Wire Notes Line
+	1250 4250 1150 4250
+Wire Notes Line
+	1950 4250 1950 4350
+Wire Notes Line
+	1950 4350 2050 4350
+Wire Notes Line
+	2050 4350 2050 4250
+Wire Notes Line
+	2050 4250 1950 4250
+Wire Notes Line
+	2750 4250 2750 4350
+Wire Notes Line
+	2750 4350 2850 4350
+Wire Notes Line
+	2850 4350 2850 4250
+Wire Notes Line
+	2850 4250 2750 4250
+Wire Notes Line
+	4050 4250 4050 4350
+Wire Notes Line
+	4050 4350 4150 4350
+Wire Notes Line
+	4150 4350 4150 4250
+Wire Notes Line
+	4150 4250 4050 4250
+Wire Wire Line
+	800  4700 4500 4700
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E60195F
+P 4800 4800
+F 0 "U?" H 4800 5117 50  0001 C CNN
+F 1 "PT4" H 4800 5025 50  0000 C CNN
+F 2 "" H 4800 4800 200 0001 C CNN
+F 3 "" H 4800 4800 200 0001 C CNN
+	1    4800 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4900 800  4900
+Wire Notes Line
+	4150 4650 4050 4650
+Wire Notes Line
+	4050 4650 4050 4750
+Wire Notes Line
+	4050 4750 4150 4750
+Wire Notes Line
+	4150 4750 4150 4650
+Wire Notes Line
+	2850 4650 2750 4650
+Wire Notes Line
+	2750 4650 2750 4750
+Wire Notes Line
+	2750 4750 2850 4750
+Wire Notes Line
+	2850 4750 2850 4650
+Wire Notes Line
+	2050 4650 1950 4650
+Wire Notes Line
+	1950 4650 1950 4750
+Wire Notes Line
+	1950 4750 2050 4750
+Wire Notes Line
+	2050 4750 2050 4650
+Wire Notes Line
+	1250 4650 1150 4650
+Wire Notes Line
+	1150 4650 1150 4750
+Wire Notes Line
+	1150 4750 1250 4750
+Wire Notes Line
+	1250 4750 1250 4650
+Wire Notes Line
+	1150 4850 1150 4950
+Wire Notes Line
+	1150 4950 1250 4950
+Wire Notes Line
+	1250 4950 1250 4850
+Wire Notes Line
+	1250 4850 1150 4850
+Wire Notes Line
+	1950 4850 1950 4950
+Wire Notes Line
+	1950 4950 2050 4950
+Wire Notes Line
+	2050 4950 2050 4850
+Wire Notes Line
+	2050 4850 1950 4850
+Wire Notes Line
+	2750 4850 2750 4950
+Wire Notes Line
+	2750 4950 2850 4950
+Wire Notes Line
+	2850 4950 2850 4850
+Wire Notes Line
+	2850 4850 2750 4850
+Wire Notes Line
+	4050 4850 4050 4950
+Wire Notes Line
+	4050 4950 4150 4950
+Wire Notes Line
+	4150 4950 4150 4850
+Wire Notes Line
+	4150 4850 4050 4850
+Wire Wire Line
+	800  5300 4500 5300
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E60CB24
+P 4800 5400
+F 0 "U?" H 4800 5717 50  0001 C CNN
+F 1 "PT5" H 4800 5625 50  0000 C CNN
+F 2 "" H 4800 5400 200 0001 C CNN
+F 3 "" H 4800 5400 200 0001 C CNN
+	1    4800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5500 800  5500
+Wire Notes Line
+	4150 5250 4050 5250
+Wire Notes Line
+	4050 5250 4050 5350
+Wire Notes Line
+	4050 5350 4150 5350
+Wire Notes Line
+	4150 5350 4150 5250
+Wire Notes Line
+	2850 5250 2750 5250
+Wire Notes Line
+	2750 5250 2750 5350
+Wire Notes Line
+	2750 5350 2850 5350
+Wire Notes Line
+	2850 5350 2850 5250
+Wire Notes Line
+	2050 5250 1950 5250
+Wire Notes Line
+	1950 5250 1950 5350
+Wire Notes Line
+	1950 5350 2050 5350
+Wire Notes Line
+	2050 5350 2050 5250
+Wire Notes Line
+	1250 5250 1150 5250
+Wire Notes Line
+	1150 5250 1150 5350
+Wire Notes Line
+	1150 5350 1250 5350
+Wire Notes Line
+	1250 5350 1250 5250
+Wire Notes Line
+	1150 5450 1150 5550
+Wire Notes Line
+	1150 5550 1250 5550
+Wire Notes Line
+	1250 5550 1250 5450
+Wire Notes Line
+	1250 5450 1150 5450
+Wire Notes Line
+	1950 5450 1950 5550
+Wire Notes Line
+	1950 5550 2050 5550
+Wire Notes Line
+	2050 5550 2050 5450
+Wire Notes Line
+	2050 5450 1950 5450
+Wire Notes Line
+	2750 5450 2750 5550
+Wire Notes Line
+	2750 5550 2850 5550
+Wire Notes Line
+	2850 5550 2850 5450
+Wire Notes Line
+	2850 5450 2750 5450
+Wire Notes Line
+	4050 5450 4050 5550
+Wire Notes Line
+	4050 5550 4150 5550
+Wire Notes Line
+	4150 5550 4150 5450
+Wire Notes Line
+	4150 5450 4050 5450
+Wire Wire Line
+	800  5900 4500 5900
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E61B3A1
+P 4800 6000
+F 0 "U?" H 4800 6317 50  0001 C CNN
+F 1 "PT6" H 4800 6225 50  0000 C CNN
+F 2 "" H 4800 6000 200 0001 C CNN
+F 3 "" H 4800 6000 200 0001 C CNN
+	1    4800 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6100 800  6100
+Wire Notes Line
+	4150 5850 4050 5850
+Wire Notes Line
+	4050 5850 4050 5950
+Wire Notes Line
+	4050 5950 4150 5950
+Wire Notes Line
+	4150 5950 4150 5850
+Wire Notes Line
+	2850 5850 2750 5850
+Wire Notes Line
+	2750 5850 2750 5950
+Wire Notes Line
+	2750 5950 2850 5950
+Wire Notes Line
+	2850 5950 2850 5850
+Wire Notes Line
+	2050 5850 1950 5850
+Wire Notes Line
+	1950 5850 1950 5950
+Wire Notes Line
+	1950 5950 2050 5950
+Wire Notes Line
+	2050 5950 2050 5850
+Wire Notes Line
+	1250 5850 1150 5850
+Wire Notes Line
+	1150 5850 1150 5950
+Wire Notes Line
+	1150 5950 1250 5950
+Wire Notes Line
+	1250 5950 1250 5850
+Wire Notes Line
+	1150 6050 1150 6150
+Wire Notes Line
+	1150 6150 1250 6150
+Wire Notes Line
+	1250 6150 1250 6050
+Wire Notes Line
+	1250 6050 1150 6050
+Wire Notes Line
+	1950 6050 1950 6150
+Wire Notes Line
+	1950 6150 2050 6150
+Wire Notes Line
+	2050 6150 2050 6050
+Wire Notes Line
+	2050 6050 1950 6050
+Wire Notes Line
+	2750 6050 2750 6150
+Wire Notes Line
+	2750 6150 2850 6150
+Wire Notes Line
+	2850 6150 2850 6050
+Wire Notes Line
+	2850 6050 2750 6050
+Wire Notes Line
+	4050 6050 4050 6150
+Wire Notes Line
+	4050 6150 4150 6150
+Wire Notes Line
+	4150 6150 4150 6050
+Wire Notes Line
+	4150 6050 4050 6050
+Wire Wire Line
+	800  6500 4500 6500
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E62D984
+P 4800 6600
+F 0 "U?" H 4800 6917 50  0001 C CNN
+F 1 "PT7" H 4800 6825 50  0000 C CNN
+F 2 "" H 4800 6600 200 0001 C CNN
+F 3 "" H 4800 6600 200 0001 C CNN
+	1    4800 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6700 800  6700
+Wire Notes Line
+	4150 6450 4050 6450
+Wire Notes Line
+	4050 6450 4050 6550
+Wire Notes Line
+	4050 6550 4150 6550
+Wire Notes Line
+	4150 6550 4150 6450
+Wire Notes Line
+	2850 6450 2750 6450
+Wire Notes Line
+	2750 6450 2750 6550
+Wire Notes Line
+	2750 6550 2850 6550
+Wire Notes Line
+	2850 6550 2850 6450
+Wire Notes Line
+	2050 6450 1950 6450
+Wire Notes Line
+	1950 6450 1950 6550
+Wire Notes Line
+	1950 6550 2050 6550
+Wire Notes Line
+	2050 6550 2050 6450
+Wire Notes Line
+	1250 6450 1150 6450
+Wire Notes Line
+	1150 6450 1150 6550
+Wire Notes Line
+	1150 6550 1250 6550
+Wire Notes Line
+	1250 6550 1250 6450
+Wire Notes Line
+	1150 6650 1150 6750
+Wire Notes Line
+	1150 6750 1250 6750
+Wire Notes Line
+	1250 6750 1250 6650
+Wire Notes Line
+	1250 6650 1150 6650
+Wire Notes Line
+	1950 6650 1950 6750
+Wire Notes Line
+	1950 6750 2050 6750
+Wire Notes Line
+	2050 6750 2050 6650
+Wire Notes Line
+	2050 6650 1950 6650
+Wire Notes Line
+	2750 6650 2750 6750
+Wire Notes Line
+	2750 6750 2850 6750
+Wire Notes Line
+	2850 6750 2850 6650
+Wire Notes Line
+	2850 6650 2750 6650
+Wire Notes Line
+	4050 6650 4050 6750
+Wire Notes Line
+	4050 6750 4150 6750
+Wire Notes Line
+	4150 6750 4150 6650
+Wire Notes Line
+	4150 6650 4050 6650
+Wire Wire Line
+	800  7100 4500 7100
+Wire Wire Line
+	4500 7300 800  7300
+Wire Notes Line
+	4150 7050 4050 7050
+Wire Notes Line
+	4050 7050 4050 7150
+Wire Notes Line
+	4050 7150 4150 7150
+Wire Notes Line
+	4150 7150 4150 7050
+Wire Notes Line
+	2850 7050 2750 7050
+Wire Notes Line
+	2750 7050 2750 7150
+Wire Notes Line
+	2750 7150 2850 7150
+Wire Notes Line
+	2850 7150 2850 7050
+Wire Notes Line
+	2050 7050 1950 7050
+Wire Notes Line
+	1950 7050 1950 7150
+Wire Notes Line
+	1950 7150 2050 7150
+Wire Notes Line
+	2050 7150 2050 7050
+Wire Notes Line
+	1250 7050 1150 7050
+Wire Notes Line
+	1150 7050 1150 7150
+Wire Notes Line
+	1150 7150 1250 7150
+Wire Notes Line
+	1250 7150 1250 7050
+Wire Notes Line
+	1150 7250 1150 7350
+Wire Notes Line
+	1150 7350 1250 7350
+Wire Notes Line
+	1250 7350 1250 7250
+Wire Notes Line
+	1250 7250 1150 7250
+Wire Notes Line
+	1950 7250 1950 7350
+Wire Notes Line
+	1950 7350 2050 7350
+Wire Notes Line
+	2050 7350 2050 7250
+Wire Notes Line
+	2050 7250 1950 7250
+Wire Notes Line
+	2750 7250 2750 7350
+Wire Notes Line
+	2750 7350 2850 7350
+Wire Notes Line
+	2850 7350 2850 7250
+Wire Notes Line
+	2850 7250 2750 7250
+Wire Notes Line
+	4050 7250 4050 7350
+Wire Notes Line
+	4050 7350 4150 7350
+Wire Notes Line
+	4150 7350 4150 7250
+Wire Notes Line
+	4150 7250 4050 7250
+Wire Wire Line
+	800  7700 4500 7700
+Wire Wire Line
+	4500 7900 800  7900
+Wire Notes Line
+	4150 7650 4050 7650
+Wire Notes Line
+	4050 7650 4050 7750
+Wire Notes Line
+	4050 7750 4150 7750
+Wire Notes Line
+	4150 7750 4150 7650
+Wire Notes Line
+	2850 7650 2750 7650
+Wire Notes Line
+	2750 7650 2750 7750
+Wire Notes Line
+	2750 7750 2850 7750
+Wire Notes Line
+	2850 7750 2850 7650
+Wire Notes Line
+	2050 7650 1950 7650
+Wire Notes Line
+	1950 7650 1950 7750
+Wire Notes Line
+	1950 7750 2050 7750
+Wire Notes Line
+	2050 7750 2050 7650
+Wire Notes Line
+	1250 7650 1150 7650
+Wire Notes Line
+	1150 7650 1150 7750
+Wire Notes Line
+	1150 7750 1250 7750
+Wire Notes Line
+	1250 7750 1250 7650
+Wire Notes Line
+	1150 7850 1150 7950
+Wire Notes Line
+	1150 7950 1250 7950
+Wire Notes Line
+	1250 7950 1250 7850
+Wire Notes Line
+	1250 7850 1150 7850
+Wire Notes Line
+	1950 7850 1950 7950
+Wire Notes Line
+	1950 7950 2050 7950
+Wire Notes Line
+	2050 7950 2050 7850
+Wire Notes Line
+	2050 7850 1950 7850
+Wire Notes Line
+	2750 7850 2750 7950
+Wire Notes Line
+	2750 7950 2850 7950
+Wire Notes Line
+	2850 7950 2850 7850
+Wire Notes Line
+	2850 7850 2750 7850
+Wire Notes Line
+	4050 7850 4050 7950
+Wire Notes Line
+	4050 7950 4150 7950
+Wire Notes Line
+	4150 7950 4150 7850
+Wire Notes Line
+	4150 7850 4050 7850
+Wire Wire Line
+	800  8300 4500 8300
+Wire Wire Line
+	4500 8500 800  8500
+Wire Notes Line
+	4150 8250 4050 8250
+Wire Notes Line
+	4050 8250 4050 8350
+Wire Notes Line
+	4050 8350 4150 8350
+Wire Notes Line
+	4150 8350 4150 8250
+Wire Notes Line
+	2850 8250 2750 8250
+Wire Notes Line
+	2750 8250 2750 8350
+Wire Notes Line
+	2750 8350 2850 8350
+Wire Notes Line
+	2850 8350 2850 8250
+Wire Notes Line
+	2050 8250 1950 8250
+Wire Notes Line
+	1950 8250 1950 8350
+Wire Notes Line
+	1950 8350 2050 8350
+Wire Notes Line
+	2050 8350 2050 8250
+Wire Notes Line
+	1250 8250 1150 8250
+Wire Notes Line
+	1150 8250 1150 8350
+Wire Notes Line
+	1150 8350 1250 8350
+Wire Notes Line
+	1250 8350 1250 8250
+Wire Notes Line
+	1150 8450 1150 8550
+Wire Notes Line
+	1150 8550 1250 8550
+Wire Notes Line
+	1250 8550 1250 8450
+Wire Notes Line
+	1250 8450 1150 8450
+Wire Notes Line
+	1950 8450 1950 8550
+Wire Notes Line
+	1950 8550 2050 8550
+Wire Notes Line
+	2050 8550 2050 8450
+Wire Notes Line
+	2050 8450 1950 8450
+Wire Notes Line
+	2750 8450 2750 8550
+Wire Notes Line
+	2750 8550 2850 8550
+Wire Notes Line
+	2850 8550 2850 8450
+Wire Notes Line
+	2850 8450 2750 8450
+Wire Notes Line
+	4050 8450 4050 8550
+Wire Notes Line
+	4050 8550 4150 8550
+Wire Notes Line
+	4150 8550 4150 8450
+Wire Notes Line
+	4150 8450 4050 8450
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E70EF32
+P 4800 8400
+F 0 "U?" H 4800 8717 50  0001 C CNN
+F 1 "PT10" H 4800 8625 50  0000 C CNN
+F 2 "" H 4800 8400 200 0001 C CNN
+F 3 "" H 4800 8400 200 0001 C CNN
+	1    4800 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E6EC61B
+P 4800 7800
+F 0 "U?" H 4800 8117 50  0001 C CNN
+F 1 "PT9" H 4800 8025 50  0000 C CNN
+F 2 "" H 4800 7800 200 0001 C CNN
+F 3 "" H 4800 7800 200 0001 C CNN
+	1    4800 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E6CF9F0
+P 4800 7200
+F 0 "U?" H 4800 7517 50  0001 C CNN
+F 1 "PT8" H 4800 7425 50  0000 C CNN
+F 2 "" H 4800 7200 200 0001 C CNN
+F 3 "" H 4800 7200 200 0001 C CNN
+	1    4800 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  9300 4500 9300
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E8DB212
+P 4800 9400
+F 0 "U?" H 4800 9717 50  0001 C CNN
+F 1 "PT53" H 4800 9625 50  0000 C CNN
+F 2 "" H 4800 9400 200 0001 C CNN
+F 3 "" H 4800 9400 200 0001 C CNN
+	1    4800 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 9500 800  9500
+Wire Notes Line
+	4150 9250 4050 9250
+Wire Notes Line
+	4050 9250 4050 9350
+Wire Notes Line
+	4050 9350 4150 9350
+Wire Notes Line
+	4150 9350 4150 9250
+Wire Notes Line
+	2850 9250 2750 9250
+Wire Notes Line
+	2750 9250 2750 9350
+Wire Notes Line
+	2750 9350 2850 9350
+Wire Notes Line
+	2850 9350 2850 9250
+Wire Notes Line
+	2050 9250 1950 9250
+Wire Notes Line
+	1950 9250 1950 9350
+Wire Notes Line
+	1950 9350 2050 9350
+Wire Notes Line
+	2050 9350 2050 9250
+Wire Notes Line
+	1250 9250 1150 9250
+Wire Notes Line
+	1150 9250 1150 9350
+Wire Notes Line
+	1150 9350 1250 9350
+Wire Notes Line
+	1250 9350 1250 9250
+Wire Notes Line
+	1150 9450 1150 9550
+Wire Notes Line
+	1150 9550 1250 9550
+Wire Notes Line
+	1250 9550 1250 9450
+Wire Notes Line
+	1250 9450 1150 9450
+Wire Notes Line
+	1950 9450 1950 9550
+Wire Notes Line
+	1950 9550 2050 9550
+Wire Notes Line
+	2050 9550 2050 9450
+Wire Notes Line
+	2050 9450 1950 9450
+Wire Notes Line
+	2750 9450 2750 9550
+Wire Notes Line
+	2750 9550 2850 9550
+Wire Notes Line
+	2850 9550 2850 9450
+Wire Notes Line
+	2850 9450 2750 9450
+Wire Notes Line
+	4050 9450 4050 9550
+Wire Notes Line
+	4050 9550 4150 9550
+Wire Notes Line
+	4150 9550 4150 9450
+Wire Notes Line
+	4150 9450 4050 9450
+Wire Wire Line
+	800  9900 4500 9900
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E90B1A2
+P 4800 10000
+F 0 "U?" H 4800 10317 50  0001 C CNN
+F 1 "PT54" H 4800 10225 50  0000 C CNN
+F 2 "" H 4800 10000 200 0001 C CNN
+F 3 "" H 4800 10000 200 0001 C CNN
+	1    4800 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 10100 800  10100
+Wire Notes Line
+	4150 9850 4050 9850
+Wire Notes Line
+	4050 9850 4050 9950
+Wire Notes Line
+	4050 9950 4150 9950
+Wire Notes Line
+	4150 9950 4150 9850
+Wire Notes Line
+	2850 9850 2750 9850
+Wire Notes Line
+	2750 9850 2750 9950
+Wire Notes Line
+	2750 9950 2850 9950
+Wire Notes Line
+	2850 9950 2850 9850
+Wire Notes Line
+	2050 9850 1950 9850
+Wire Notes Line
+	1950 9850 1950 9950
+Wire Notes Line
+	1950 9950 2050 9950
+Wire Notes Line
+	2050 9950 2050 9850
+Wire Notes Line
+	1250 9850 1150 9850
+Wire Notes Line
+	1150 9850 1150 9950
+Wire Notes Line
+	1150 9950 1250 9950
+Wire Notes Line
+	1250 9950 1250 9850
+Wire Notes Line
+	1150 10050 1150 10150
+Wire Notes Line
+	1150 10150 1250 10150
+Wire Notes Line
+	1250 10150 1250 10050
+Wire Notes Line
+	1250 10050 1150 10050
+Wire Notes Line
+	1950 10050 1950 10150
+Wire Notes Line
+	1950 10150 2050 10150
+Wire Notes Line
+	2050 10150 2050 10050
+Wire Notes Line
+	2050 10050 1950 10050
+Wire Notes Line
+	2750 10050 2750 10150
+Wire Notes Line
+	2750 10150 2850 10150
+Wire Notes Line
+	2850 10150 2850 10050
+Wire Notes Line
+	2850 10050 2750 10050
+Wire Notes Line
+	4050 10050 4050 10150
+Wire Notes Line
+	4050 10150 4150 10150
+Wire Notes Line
+	4150 10150 4150 10050
+Wire Notes Line
+	4150 10050 4050 10050
+Wire Wire Line
+	800  10500 4500 10500
+$Comp
+L syms:ANDTERM U?
+U 1 1 5E9420B1
+P 4800 10600
+F 0 "U?" H 4800 10917 50  0001 C CNN
+F 1 "PT55" H 4800 10825 50  0000 C CNN
+F 2 "" H 4800 10600 200 0001 C CNN
+F 3 "" H 4800 10600 200 0001 C CNN
+	1    4800 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 10700 800  10700
+Wire Notes Line
+	4150 10450 4050 10450
+Wire Notes Line
+	4050 10450 4050 10550
+Wire Notes Line
+	4050 10550 4150 10550
+Wire Notes Line
+	4150 10550 4150 10450
+Wire Notes Line
+	2850 10450 2750 10450
+Wire Notes Line
+	2750 10450 2750 10550
+Wire Notes Line
+	2750 10550 2850 10550
+Wire Notes Line
+	2850 10550 2850 10450
+Wire Notes Line
+	2050 10450 1950 10450
+Wire Notes Line
+	1950 10450 1950 10550
+Wire Notes Line
+	1950 10550 2050 10550
+Wire Notes Line
+	2050 10550 2050 10450
+Wire Notes Line
+	1250 10450 1150 10450
+Wire Notes Line
+	1150 10450 1150 10550
+Wire Notes Line
+	1150 10550 1250 10550
+Wire Notes Line
+	1250 10550 1250 10450
+Wire Notes Line
+	1150 10650 1150 10750
+Wire Notes Line
+	1150 10750 1250 10750
+Wire Notes Line
+	1250 10750 1250 10650
+Wire Notes Line
+	1250 10650 1150 10650
+Wire Notes Line
+	1950 10650 1950 10750
+Wire Notes Line
+	1950 10750 2050 10750
+Wire Notes Line
+	2050 10750 2050 10650
+Wire Notes Line
+	2050 10650 1950 10650
+Wire Notes Line
+	2750 10650 2750 10750
+Wire Notes Line
+	2750 10750 2850 10750
+Wire Notes Line
+	2850 10750 2850 10650
+Wire Notes Line
+	2850 10650 2750 10650
+Wire Notes Line
+	4050 10650 4050 10750
+Wire Notes Line
+	4050 10750 4150 10750
+Wire Notes Line
+	4150 10750 4150 10650
+Wire Notes Line
+	4150 10650 4050 10650
+Wire Wire Line
+	4100 1400 4100 11000
+Wire Wire Line
+	2800 1400 2800 11000
+Wire Wire Line
+	2000 1400 2000 11000
+Wire Wire Line
+	1200 1400 1200 11000
+Text Notes 4600 8900 0    300  ~ 0
+...
+Wire Wire Line
+	6100 2400 6100 1000
+Wire Wire Line
+	6100 2400 6100 11000
+Wire Wire Line
+	6300 3000 6300 1000
+Wire Wire Line
+	6300 3000 6300 11000
+Wire Wire Line
+	6500 1000 6500 3600
+Wire Wire Line
+	6700 1000 6700 4200
+Wire Wire Line
+	6900 1000 6900 4800
+Wire Wire Line
+	7100 1000 7100 5400
+Wire Wire Line
+	7300 1000 7300 6000
+Wire Wire Line
+	7500 1000 7500 6600
+Wire Wire Line
+	7700 1000 7700 7200
+Wire Wire Line
+	7900 1000 7900 7800
+Wire Wire Line
+	8100 1000 8100 8400
+Connection ~ 6900 4800
+Connection ~ 7100 5400
+Connection ~ 7300 6000
+Connection ~ 7500 6600
+Connection ~ 7700 7200
+Connection ~ 7900 7800
+Connection ~ 8100 8400
+Wire Wire Line
+	6500 3600 6500 11000
+Wire Wire Line
+	6700 4200 6700 11000
+Wire Wire Line
+	8900 1100 8900 10600
+Wire Wire Line
+	8700 1100 8700 10000
+Wire Wire Line
+	8500 1100 8500 9400
+Wire Wire Line
+	8100 8400 8100 11000
+Wire Wire Line
+	7900 7800 7900 11000
+Wire Wire Line
+	7700 7200 7700 11000
+Wire Wire Line
+	7500 6600 7500 11000
+Wire Wire Line
+	7300 6000 7300 11000
+Wire Wire Line
+	7100 5400 7100 11000
+Wire Wire Line
+	6900 4800 6900 11000
+Connection ~ 8500 9400
+Connection ~ 8700 10000
+Connection ~ 8900 10600
+Text Notes 8400 1600 2    150  ~ 0
+...
+Text Label 6100 1600 1    50   ~ 0
+PTERM_OUT_0
+Text Label 6300 1600 1    50   ~ 0
+PTERM_OUT_1
+Text Label 6500 1600 1    50   ~ 0
+PTERM_OUT_2
+Text Label 6700 1600 1    50   ~ 0
+PTERM_OUT_3
+Text Label 6900 1600 1    50   ~ 0
+PTERM_OUT_4
+Text Label 7100 1600 1    50   ~ 0
+PTERM_OUT_5
+Text Label 7300 1600 1    50   ~ 0
+PTERM_OUT_6
+Text Label 7500 1600 1    50   ~ 0
+PTERM_OUT_7
+Text Label 7700 1600 1    50   ~ 0
+PTERM_OUT_8
+Text Label 7900 1600 1    50   ~ 0
+PTERM_OUT_9
+Text Label 8100 1600 1    50   ~ 0
+PTERM_OUT_10
+Text Label 8500 1600 1    50   ~ 0
+PTERM_OUT_53
+Text Label 8700 1600 1    50   ~ 0
+PTERM_OUT_54
+Text Label 8900 1600 1    50   ~ 0
+PTERM_OUT_55
+Text Notes 5200 5400 0    75   ~ 0
+CTR
+Text Notes 5200 6000 0    75   ~ 0
+CTS
+Text Notes 5200 6600 0    75   ~ 0
+CTE
+Text Notes 5200 7200 0    75   ~ 0
+PTA for MC0
+Text Notes 5200 7800 0    75   ~ 0
+PTB for MC0
+Text Notes 5200 8400 0    75   ~ 0
+PTC for MC0
+Wire Wire Line
+	5100 2400 6100 2400
+Wire Wire Line
+	5100 3000 6300 3000
+Wire Wire Line
+	5100 3600 6500 3600
+Wire Wire Line
+	5100 4200 6700 4200
+Wire Wire Line
+	5100 4800 6900 4800
+Wire Wire Line
+	5100 5400 7100 5400
+Wire Wire Line
+	5100 6000 7300 6000
+Wire Wire Line
+	5100 6600 7500 6600
+Wire Wire Line
+	5100 7200 7700 7200
+Wire Wire Line
+	5100 7800 7900 7800
+Wire Wire Line
+	5100 8400 8100 8400
+Wire Wire Line
+	5100 9400 8500 9400
+Wire Wire Line
+	5100 10000 8700 10000
+Wire Wire Line
+	5100 10600 8900 10600
+Text Notes 5200 9400 0    75   ~ 0
+PTA for MC15
+Text Notes 5200 4800 0    75   ~ 0
+CTC
+Text Notes 5200 10000 0    75   ~ 0
+PTB for MC15
+Text Notes 5200 10600 0    75   ~ 0
+PTC for MC15
+$Comp
+L 74xx:74HC86 U?
+U 1 1 5F76943D
+P 11700 8600
+F 0 "U?" H 11700 8925 50  0001 C CNN
+F 1 "x" H 11700 8833 50  0001 C CNN
+F 2 "" H 11700 8600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 11700 8600 50  0001 C CNN
+	1    11700 8600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6050 8850 6050 8950
+Wire Notes Line
+	6050 8950 6150 8950
+Wire Notes Line
+	6150 8950 6150 8850
+Wire Notes Line
+	6150 8850 6050 8850
+Wire Notes Line
+	6250 8850 6250 8950
+Wire Notes Line
+	6250 8950 6350 8950
+Wire Notes Line
+	6350 8950 6350 8850
+Wire Notes Line
+	6350 8850 6250 8850
+Wire Notes Line
+	6450 8850 6450 8950
+Wire Notes Line
+	6450 8950 6550 8950
+Wire Notes Line
+	6550 8950 6550 8850
+Wire Notes Line
+	6550 8850 6450 8850
+Wire Notes Line
+	6650 8850 6650 8950
+Wire Notes Line
+	6650 8950 6750 8950
+Wire Notes Line
+	6650 8850 6750 8850
+Wire Notes Line
+	6750 8850 6750 8950
+Wire Notes Line
+	6850 8850 6850 8950
+Wire Notes Line
+	6850 8950 6950 8950
+Wire Notes Line
+	6950 8950 6950 8850
+Wire Notes Line
+	6950 8850 6850 8850
+Wire Notes Line
+	7050 8850 7050 8950
+Wire Notes Line
+	7050 8950 7150 8950
+Wire Notes Line
+	7050 8850 7150 8850
+Wire Notes Line
+	7150 8850 7150 8950
+Wire Notes Line
+	7250 8850 7250 8950
+Wire Notes Line
+	7250 8950 7350 8950
+Wire Notes Line
+	7350 8950 7350 8850
+Wire Notes Line
+	7350 8850 7250 8850
+Wire Notes Line
+	7450 8850 7450 8950
+Wire Notes Line
+	7450 8950 7550 8950
+Wire Notes Line
+	7550 8950 7550 8850
+Wire Notes Line
+	7550 8850 7450 8850
+Wire Notes Line
+	7650 8850 7650 8950
+Wire Notes Line
+	7650 8950 7750 8950
+Wire Notes Line
+	7750 8950 7750 8850
+Wire Notes Line
+	7750 8850 7650 8850
+Wire Notes Line
+	7850 8850 7850 8950
+Wire Notes Line
+	7850 8950 7950 8950
+Wire Notes Line
+	7950 8950 7950 8850
+Wire Notes Line
+	7950 8850 7850 8850
+Wire Notes Line
+	8050 8850 8050 8950
+Wire Notes Line
+	8050 8950 8150 8950
+Wire Notes Line
+	8150 8950 8150 8850
+Wire Notes Line
+	8150 8850 8050 8850
+Wire Notes Line
+	8450 8850 8450 8950
+Wire Notes Line
+	8450 8950 8550 8950
+Wire Notes Line
+	8550 8950 8550 8850
+Wire Notes Line
+	8550 8850 8450 8850
+Wire Notes Line
+	8650 8850 8650 8950
+Wire Notes Line
+	8650 8950 8750 8950
+Wire Notes Line
+	8750 8950 8750 8850
+Wire Notes Line
+	8750 8850 8650 8850
+Wire Notes Line
+	8850 8850 8850 8950
+Wire Notes Line
+	8850 8950 8950 8950
+Wire Notes Line
+	8950 8950 8950 8850
+Wire Notes Line
+	8950 8850 8850 8850
+$Comp
+L 74xx:74AHC04 U?
+U 1 1 5FC15A66
+P 10300 8400
+F 0 "U?" H 10300 8625 50  0001 C CNN
+F 1 "x" H 10300 8626 50  0001 C CNN
+F 2 "" H 10300 8400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 10300 8400 50  0001 C CNN
+	1    10300 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L syms:MUX4 U?
+U 1 1 5FC17034
+P 11000 8400
+F 0 "U?" H 11000 8865 50  0001 C CNN
+F 1 "XorIn" V 11000 8450 50  0000 C CNN
+F 2 "" H 10900 8400 50  0001 C CNN
+F 3 "" H 10900 8400 50  0001 C CNN
+	1    11000 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC1B992
+P 10600 8100
+F 0 "#PWR?" H 10600 7950 50  0001 C CNN
+F 1 "VCC" H 10617 8273 50  0000 C CNN
+F 2 "" H 10600 8100 50  0001 C CNN
+F 3 "" H 10600 8100 50  0001 C CNN
+	1    10600 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC1C15F
+P 10600 8600
+F 0 "#PWR?" H 10600 8350 50  0001 C CNN
+F 1 "GND" H 10605 8427 50  0000 C CNN
+F 2 "" H 10600 8600 50  0001 C CNN
+F 3 "" H 10600 8600 50  0001 C CNN
+	1    10600 8600
+	1    0    0    -1  
+$EndComp
+Text Notes 10650 8200 0    50   ~ 0
+11
+Text Notes 10650 8300 0    50   ~ 0
+10
+Text Notes 10650 8400 0    50   ~ 0
+01
+Text Notes 10650 8500 0    50   ~ 0
+00
+Wire Wire Line
+	10800 8400 10600 8400
+Wire Wire Line
+	10800 8200 10600 8200
+Wire Wire Line
+	10600 8200 10600 8100
+Wire Wire Line
+	10800 8500 10600 8500
+Wire Wire Line
+	10600 8500 10600 8600
+Wire Wire Line
+	8100 8400 9900 8400
+Wire Wire Line
+	10800 8300 10500 8300
+Wire Wire Line
+	10500 8300 10500 8100
+Wire Wire Line
+	10500 8100 9900 8100
+Wire Wire Line
+	9900 8100 9900 8400
+Connection ~ 9900 8400
+Wire Wire Line
+	9900 8400 10000 8400
+Wire Wire Line
+	11200 8300 11300 8300
+Wire Wire Line
+	11300 8300 11300 8500
+Wire Wire Line
+	11300 8500 11400 8500
+Wire Wire Line
+	11300 8900 11300 8700
+Wire Wire Line
+	11300 8700 11400 8700
+$Comp
+L syms:FF U?
+U 1 1 5FEF9CFF
+P 14600 7700
+F 0 "U?" H 14850 8050 50  0001 C CNN
+F 1 "FF" H 14600 7700 50  0000 L CNN
+F 2 "" H 14600 7700 50  0001 C CNN
+F 3 "" H 14600 7700 50  0001 C CNN
+	1    14600 7700
+	1    0    0    -1  
+$EndComp
+Text Notes 14600 8400 0    50   ~ 0
+RegMode\n00 = DFF\n01 = LATCH\n10 = TFF\n11 = DFFCE
+$Comp
+L syms:MUX2_inv U?
+U 1 1 5FF458E2
+P 12900 7700
+F 0 "U?" H 12900 8065 50  0001 C CNN
+F 1 "ClkOp" V 12900 7700 50  0000 C CNN
+F 2 "" H 12800 7700 50  0001 C CNN
+F 3 "" H 12800 7700 50  0001 C CNN
+	1    12900 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L syms:MUX4 U?
+U 1 1 5FFC54A5
+P 12300 7800
+F 0 "U?" H 12300 8265 50  0001 C CNN
+F 1 "Clk" H 12300 7850 50  0000 C CNN
+F 2 "" H 12200 7800 50  0001 C CNN
+F 3 "" H 12200 7800 50  0001 C CNN
+	1    12300 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 7400 12000 7600
+Text Label 11800 7700 0    50   ~ 0
+GCK0
+Text Label 11800 7800 0    50   ~ 0
+GCK1
+Text Label 11800 7900 0    50   ~ 0
+GCK2
+Wire Wire Line
+	11700 7700 12100 7700
+Wire Wire Line
+	11700 7800 12100 7800
+Wire Wire Line
+	11700 7900 12100 7900
+Text Notes 13800 7700 0    50   ~ 0
+ClkFreq\n1 = DDR
+Wire Wire Line
+	12500 7700 12700 7700
+Text Notes 12650 7600 0    50   ~ 0
+0
+Text Notes 12650 7800 0    50   ~ 0
+1
+Text Notes 12050 7700 0    50   ~ 0
+00
+Text Notes 12050 7800 0    50   ~ 0
+10
+Text Notes 12050 7900 0    50   ~ 0
+01
+Wire Wire Line
+	9900 8100 9900 7800
+Connection ~ 9900 8100
+Wire Wire Line
+	10900 7500 10900 4800
+Wire Wire Line
+	10900 4800 6900 4800
+Text Label 11300 7500 0    50   ~ 0
+CTC
+Text Label 11100 7300 0    50   ~ 0
+PTC_MC0
+Wire Wire Line
+	14200 7900 14100 7900
+Wire Wire Line
+	14100 7900 14100 8200
+Wire Wire Line
+	11300 8200 11300 7800
+Wire Wire Line
+	11300 7800 9900 7800
+Connection ~ 9900 7800
+Wire Wire Line
+	9900 7800 9900 7300
+Text Notes 13450 8200 0    50   ~ 0
+(only for DFFCE)
+$Comp
+L syms:MUX4 U?
+U 1 1 602DF26E
+P 14200 6600
+F 0 "U?" H 14200 6350 50  0001 C CNN
+F 1 "P" H 14200 6650 50  0000 C CNN
+F 2 "" H 14100 6600 50  0001 C CNN
+F 3 "" H 14100 6600 50  0001 C CNN
+	1    14200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L syms:MUX4 U?
+U 1 1 602DFCBC
+P 14200 9000
+F 0 "U?" H 14200 8750 50  0001 C CNN
+F 1 "R" H 14200 9050 50  0000 C CNN
+F 2 "" H 14100 9000 50  0001 C CNN
+F 3 "" H 14100 9000 50  0001 C CNN
+	1    14200 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 8900 14600 8900
+Wire Wire Line
+	14600 8900 14600 8100
+Wire Wire Line
+	14600 7300 14600 6500
+Wire Wire Line
+	14600 6500 14400 6500
+$Comp
+L power:GND #PWR?
+U 1 1 60364814
+P 13900 9200
+F 0 "#PWR?" H 13900 8950 50  0001 C CNN
+F 1 "GND" H 13800 9200 50  0000 C CNN
+F 2 "" H 13900 9200 50  0001 C CNN
+F 3 "" H 13900 9200 50  0001 C CNN
+	1    13900 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 8200 14100 8200
+Wire Wire Line
+	7300 6000 13500 6000
+Wire Wire Line
+	13500 6000 13500 6400
+Wire Wire Line
+	13500 6400 14000 6400
+Wire Wire Line
+	14000 6700 13900 6700
+Wire Wire Line
+	14000 9100 13900 9100
+Wire Wire Line
+	13900 9100 13900 9200
+Wire Wire Line
+	7700 7200 9900 7200
+Wire Wire Line
+	9900 7200 9900 6500
+Wire Wire Line
+	9900 6500 13400 6500
+Wire Wire Line
+	13400 6500 13400 8900
+Wire Wire Line
+	13400 8900 14000 8900
+Connection ~ 13400 6500
+Wire Wire Line
+	13400 6500 14000 6500
+Text Label 13700 9000 0    50   ~ 0
+GSR
+Text Label 13700 6600 0    50   ~ 0
+GSR
+Text Label 13700 6400 0    50   ~ 0
+CTS
+Text Label 13700 8800 0    50   ~ 0
+CTR
+Text Label 13500 8900 0    50   ~ 0
+PTA_MC0
+Wire Wire Line
+	13300 8800 14000 8800
+Wire Wire Line
+	7100 5400 13300 5400
+Wire Wire Line
+	13300 5400 13300 8800
+Wire Wire Line
+	11900 7400 12000 7400
+$Comp
+L syms:MUX2 U?
+U 1 1 5FFC5F08
+P 11700 7400
+F 0 "U?" H 11700 7765 50  0001 C CNN
+F 1 "Aclk" V 11700 7400 50  0000 C CNN
+F 2 "" H 11600 7400 50  0001 C CNN
+F 3 "" H 11600 7400 50  0001 C CNN
+	1    11700 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 7500 10900 7500
+Wire Wire Line
+	9900 7300 11500 7300
+Text Notes 11500 7500 0    50   ~ 0
+1
+Text Notes 11500 7300 0    50   ~ 0
+0
+Wire Wire Line
+	12000 7600 12100 7600
+Wire Wire Line
+	12700 7600 12700 7700
+Connection ~ 12700 7700
+Wire Wire Line
+	12700 7700 12700 7800
+Wire Wire Line
+	13100 7700 14200 7700
+Text Label 13500 6500 0    50   ~ 0
+PTA_MC0
+Wire Wire Line
+	13200 9000 14000 9000
+Wire Wire Line
+	13200 6600 14000 6600
+Text GLabel 13200 9000 0    50   Input ~ 0
+GSR
+Text GLabel 13200 6600 0    50   Input ~ 0
+GSR
+Text GLabel 11700 7700 0    50   Input ~ 0
+GCK0
+Text GLabel 11700 7800 0    50   Input ~ 0
+GCK1
+Text GLabel 11700 7900 0    50   Input ~ 0
+GCK2
+Text Notes 13950 6700 0    50   ~ 0
+11
+Text Notes 13950 9100 0    50   ~ 0
+11
+Text Notes 13950 6500 0    50   ~ 0
+00
+Text Notes 13950 8900 0    50   ~ 0
+00
+Text Notes 13950 6400 0    50   ~ 0
+10
+Text Notes 13950 8800 0    50   ~ 0
+10
+Text Notes 13950 6600 0    50   ~ 0
+01
+Text Notes 13950 9000 0    50   ~ 0
+01
+Text Notes 14650 7350 0    50   ~ 0
+Init State = ~Pu
+$Comp
+L syms:MUX2 U?
+U 1 1 60EB0059
+P 13700 7300
+F 0 "U?" H 13700 7050 50  0001 C CNN
+F 1 "InReg" V 13700 7300 50  0000 C CNN
+F 2 "" H 13600 7300 50  0001 C CNN
+F 3 "" H 13600 7300 50  0001 C CNN
+	1    13700 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 7500 14100 7500
+Wire Wire Line
+	14100 7500 14100 7300
+Wire Wire Line
+	14100 7300 13900 7300
+Text Notes 12050 7600 0    50   ~ 0
+11
+Wire Wire Line
+	12000 8600 12600 8600
+Wire Wire Line
+	13900 6700 13900 6800
+$Comp
+L power:GND #PWR?
+U 1 1 60363AAA
+P 13900 6800
+F 0 "#PWR?" H 13900 6550 50  0001 C CNN
+F 1 "GND" H 13800 6800 50  0000 C CNN
+F 2 "" H 13900 6800 50  0001 C CNN
+F 3 "" H 13900 6800 50  0001 C CNN
+	1    13900 6800
+	1    0    0    -1  
+$EndComp
+Text Notes 13500 7300 0    50   ~ 0
+0
+Text Notes 13500 7500 0    50   ~ 0
+1
+Wire Notes Line
+	4700 2100 4700 700 
+Wire Wire Line
+	1000 1000 1000 800 
+Wire Wire Line
+	1200 1000 1200 800 
+Wire Wire Line
+	1300 1000 1300 800 
+Wire Wire Line
+	1800 1000 1800 800 
+Wire Wire Line
+	2000 1000 2000 800 
+Wire Wire Line
+	2100 1000 2100 800 
+Wire Wire Line
+	2600 1000 2600 800 
+Wire Wire Line
+	2800 1000 2800 800 
+Wire Wire Line
+	2900 1000 2900 800 
+Wire Wire Line
+	3900 1000 3900 800 
+Wire Wire Line
+	4100 1000 4100 800 
+Wire Wire Line
+	4200 1000 4200 800 
+Text Notes 3200 2000 0    100  ~ 0
+ZIA
+Wire Notes Line
+	700  700  700  11100
+Text Notes 4800 900  0    100  ~ 0
+Product Term Array
+Wire Notes Line
+	700  11100 9100 11100
+Wire Notes Line
+	4700 2100 700  2100
+Wire Notes Line
+	9100 700  9100 11100
+Wire Notes Line
+	9100 4500 15900 4500
+Wire Notes Line
+	15900 9800 9100 9800
+Text Notes 9200 9700 0    100  ~ 0
+One Macrocell\n(repeats 16x per FB)
+Wire Wire Line
+	15400 6400 15400 5800
+Text Notes 15200 5800 0    100  ~ 0
+To ZIA
+Wire Wire Line
+	15000 7700 15400 7700
+$Comp
+L syms:MUX4 U?
+U 1 1 6299600E
+P 15500 6600
+F 0 "U?" H 15500 6350 50  0001 C CNN
+F 1 "FB" V 15500 6700 50  0000 R CNN
+F 2 "" H 15400 6600 50  0001 C CNN
+F 3 "" H 15400 6600 50  0001 C CNN
+	1    15500 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15400 6800 15400 7100
+$Comp
+L power:GND #PWR?
+U 1 1 629DD0AD
+P 15600 7000
+F 0 "#PWR?" H 15600 6750 50  0001 C CNN
+F 1 "GND" H 15605 6827 50  0000 C CNN
+F 2 "" H 15600 7000 50  0001 C CNN
+F 3 "" H 15600 7000 50  0001 C CNN
+	1    15600 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 6900 15500 6800
+Wire Wire Line
+	15600 7000 15600 6900
+Wire Wire Line
+	15500 6900 15600 6900
+Connection ~ 15600 6900
+Wire Wire Line
+	15600 6900 15600 6800
+Text Notes 15300 6850 1    50   ~ 0
+00
+Text Notes 15400 6850 1    50   ~ 0
+10
+Text Notes 15500 6850 1    50   ~ 0
+11
+Text Notes 15600 6850 1    50   ~ 0
+01?
+$Comp
+L 74xx:74LS126 U?
+U 1 1 62B4B3AD
+P 14500 3000
+F 0 "U?" H 14500 3225 50  0001 C CNN
+F 1 "x" H 14500 3316 50  0001 C CNN
+F 2 "" H 14500 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS126" H 14500 3000 50  0001 C CNN
+	1    14500 3000
+	1    0    0    -1  
+$EndComp
+Text Notes 14600 3300 0    50   ~ 0
+Slew = Sw\n0 = fast\n1 = slow
+Wire Wire Line
+	15400 7100 14800 7100
+Wire Wire Line
+	14800 7100 14800 4400
+Wire Wire Line
+	14800 4400 12900 4400
+Wire Wire Line
+	12900 4400 12900 3400
+Connection ~ 15400 7100
+Wire Wire Line
+	15400 7100 15400 7700
+Text Notes 13500 2900 0    50   ~ 0
+1
+Text Notes 13500 3100 0    50   ~ 0
+0
+$Comp
+L syms:MUX4 U?
+U 1 1 63D7FB76
+P 11700 3500
+F 0 "U?" H 11700 3250 50  0001 C CNN
+F 1 "InZ" V 11700 3550 50  0000 C CNN
+F 2 "" H 11600 3500 50  0001 C CNN
+F 3 "" H 11600 3500 50  0001 C CNN
+	1    11700 3500
+	-1   0    0    -1  
+$EndComp
+Text Notes 10800 3400 0    100  ~ 0
+To ZIA
+Wire Wire Line
+	10700 3400 11500 3400
+Wire Wire Line
+	11900 3300 12400 3300
+Connection ~ 12400 3300
+Connection ~ 12900 3400
+Wire Wire Line
+	12900 3400 12900 3100
+$Comp
+L power:GND #PWR?
+U 1 1 63E69B8E
+P 12100 3700
+F 0 "#PWR?" H 12100 3450 50  0001 C CNN
+F 1 "GND" H 12105 3527 50  0000 C CNN
+F 2 "" H 12100 3700 50  0001 C CNN
+F 3 "" H 12100 3700 50  0001 C CNN
+	1    12100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 3700 12100 3600
+Wire Wire Line
+	12100 3500 11900 3500
+Wire Wire Line
+	11900 3600 12100 3600
+Connection ~ 12100 3600
+Wire Wire Line
+	12100 3600 12100 3500
+Text Notes 11900 3300 0    50   ~ 0
+00
+Text Notes 11900 3400 0    50   ~ 0
+10
+Text Notes 11900 3500 0    50   ~ 0
+11
+Text Notes 11900 3600 0    50   ~ 0
+01?
+$Comp
+L syms:MUX_OE U?
+U 1 1 63F5D374
+P 14500 3500
+F 0 "U?" H 14500 3250 50  0001 C CNN
+F 1 "Oe" V 14500 3550 50  0000 R CNN
+F 2 "" H 14400 3500 50  0001 C CNN
+F 3 "" H 14400 3500 50  0001 C CNN
+	1    14500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L syms:MUX2 U?
+U 1 1 62C6BB47
+P 13800 3000
+F 0 "U?" H 13800 2750 50  0001 C CNN
+F 1 "RegCom" V 13750 3000 50  0000 C CNN
+F 2 "" H 13700 3000 50  0001 C CNN
+F 3 "" H 13700 3000 50  0001 C CNN
+	1    13800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 2900 13600 2900
+Wire Wire Line
+	12900 3100 13600 3100
+Wire Wire Line
+	14000 3000 14200 3000
+Wire Wire Line
+	14800 3000 15300 3000
+$Comp
+L power:VCC #PWR?
+U 1 1 641828EB
+P 13650 3700
+F 0 "#PWR?" H 13650 3550 50  0001 C CNN
+F 1 "VCC" H 13667 3873 50  0000 C CNN
+F 2 "" H 13650 3700 50  0001 C CNN
+F 3 "" H 13650 3700 50  0001 C CNN
+	1    13650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64182EA4
+P 14100 3850
+F 0 "#PWR?" H 14100 3600 50  0001 C CNN
+F 1 "GND" H 14105 3677 50  0000 C CNN
+F 2 "" H 14100 3850 50  0001 C CNN
+F 3 "" H 14100 3850 50  0001 C CNN
+	1    14100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 3700 14000 3850
+Wire Wire Line
+	14000 3850 13650 3850
+Wire Wire Line
+	13650 3850 13650 3700
+Wire Wire Line
+	14100 3700 14100 3850
+Wire Wire Line
+	7900 7800 9600 7800
+Wire Wire Line
+	9600 7800 9600 4600
+Wire Wire Line
+	9600 4600 14200 4600
+Wire Wire Line
+	14200 4600 14200 3700
+Wire Wire Line
+	14300 4700 14300 3700
+Wire Wire Line
+	14400 3700 14400 4100
+Wire Wire Line
+	14500 3700 14500 4100
+Wire Wire Line
+	14600 3700 14600 4100
+Wire Wire Line
+	14700 3700 14700 4100
+Wire Wire Line
+	14900 3700 14900 4100
+Text Label 13800 4600 0    50   ~ 0
+PTB_MC0
+Text Label 13800 4700 0    50   ~ 0
+CTE
+Text Label 14400 4100 1    50   ~ 0
+GTS0
+Text Label 14500 4100 1    50   ~ 0
+GTS1
+Text Label 14600 4100 1    50   ~ 0
+GTS2
+Text Label 14700 4100 1    50   ~ 0
+GTS3
+Text GLabel 14400 4100 3    50   Input ~ 0
+GTS0
+Text GLabel 14500 4100 3    50   Input ~ 0
+GTS1
+Text GLabel 14600 4100 3    50   Input ~ 0
+GTS2
+Text GLabel 14700 4100 3    50   Input ~ 0
+GTS3
+Wire Wire Line
+	14800 3700 14800 4300
+Wire Wire Line
+	14500 3300 14500 3250
+Text Notes 14000 3800 1    50   ~ 0
+0000
+Text Notes 14100 3800 1    50   ~ 0
+1111
+Text Notes 14200 3800 1    50   ~ 0
+0100
+Text Notes 14300 3800 1    50   ~ 0
+1000
+Text Notes 14400 3800 1    50   ~ 0
+1100
+Text Notes 14500 3800 1    50   ~ 0
+0010
+Text Notes 14600 3800 1    50   ~ 0
+1010
+Text Notes 14700 3800 1    50   ~ 0
+0110
+Text Notes 14800 3800 1    50   ~ 0
+0001
+Text Notes 14900 3800 1    50   ~ 0
+1110
+Text Notes 14950 4100 0    50   ~ 0
+Special: CGND
+Text Notes 14950 4300 0    50   ~ 0
+Special: Reconfigure\nto open-drain
+Wire Wire Line
+	14800 4300 15800 4300
+Wire Wire Line
+	14900 4100 15800 4100
+Wire Wire Line
+	12600 8600 12600 7400
+Connection ~ 12600 7400
+Wire Wire Line
+	12400 7200 13500 7200
+Wire Wire Line
+	15300 7000 15300 6800
+Wire Wire Line
+	12600 7000 12600 7400
+Wire Wire Line
+	12600 2900 12600 7000
+Connection ~ 12600 7000
+Wire Wire Line
+	12600 7000 15300 7000
+Wire Wire Line
+	11900 3400 12900 3400
+Wire Wire Line
+	15000 2600 13600 2600
+Wire Wire Line
+	15000 2400 15000 2600
+Wire Wire Line
+	12700 2500 14000 2500
+Text Notes 12450 2700 0    50   ~ 0
+larger parts only
+Text Notes 12450 900  0    50   ~ 0
+XC2C32/XC2C64 only
+Wire Notes Line
+	12300 800  12300 2700
+Wire Notes Line
+	15100 800  15100 2700
+Wire Notes Line
+	12300 2700 15100 2700
+Wire Notes Line
+	12300 800  15100 800 
+Wire Notes Line
+	15100 1500 12300 1500
+Wire Wire Line
+	15300 1700 14900 1700
+Connection ~ 15300 1700
+Wire Wire Line
+	15500 1700 15300 1700
+Wire Wire Line
+	14700 2400 15000 2400
+Text Notes 13900 2600 0    50   ~ 0
+Vref from neighboring pins
+Text Notes 12800 2500 0    50   ~ 0
+01 = This pin is used as Vref\n(value into fabric is unknown)
+Text Notes 13800 2100 0    50   ~ 0
+01
+Wire Wire Line
+	14000 2100 14000 2500
+Wire Wire Line
+	13800 2100 14000 2100
+Text Notes 13800 2000 0    50   ~ 0
+10
+Text Notes 13800 1900 0    50   ~ 0
+11
+Text Notes 13800 1800 0    50   ~ 0
+00
+Text Notes 13800 1300 0    50   ~ 0
+1
+Text Notes 13800 1100 0    50   ~ 0
+0
+Wire Wire Line
+	13400 1200 12400 1200
+Wire Wire Line
+	14900 1900 14900 1700
+Connection ~ 14900 1900
+Wire Wire Line
+	14700 1900 14900 1900
+Connection ~ 14900 1700
+Wire Wire Line
+	14900 2200 14900 1900
+Wire Wire Line
+	14700 2200 14900 2200
+Wire Wire Line
+	14100 2000 13800 2000
+Wire Wire Line
+	14100 2300 14100 2000
+Wire Wire Line
+	14100 1900 13800 1900
+Connection ~ 14900 1300
+Wire Wire Line
+	14100 1800 13800 1800
+Wire Wire Line
+	14100 1700 14100 1800
+Wire Wire Line
+	14900 1700 14100 1700
+Wire Wire Line
+	14900 1300 14900 1700
+Wire Wire Line
+	14900 1100 13800 1100
+Wire Wire Line
+	14900 1300 14900 1100
+Wire Wire Line
+	14700 1300 14900 1300
+Wire Wire Line
+	13800 1300 14100 1300
+$Comp
+L 74xx:74HC7014 U?
+U 1 1 63222B36
+P 14400 1900
+F 0 "U?" H 14400 1675 50  0001 C CNN
+F 1 "x" H 14400 1674 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 14400 1900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 14400 1900 50  0001 C CNN
+	1    14400 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L syms:MUX4 U?
+U 1 1 63220FBB
+P 13600 2000
+F 0 "U?" H 13600 1750 50  0001 C CNN
+F 1 "InMod" V 13600 2050 50  0000 C CNN
+F 2 "" H 13500 2000 50  0001 C CNN
+F 3 "" H 13500 2000 50  0001 C CNN
+	1    13600 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L syms:MUX2 U?
+U 1 1 632204E6
+P 13600 1200
+F 0 "U?" H 13600 950 50  0001 C CNN
+F 1 "St" H 13600 1200 50  0000 C CNN
+F 2 "" H 13500 1200 50  0001 C CNN
+F 3 "" H 13500 1200 50  0001 C CNN
+	1    13600 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 1 1 630FCF06
+P 14400 2300
+F 0 "U?" H 14400 2575 50  0001 C CNN
+F 1 "x" H 14400 2576 50  0001 C CNN
+F 2 "" H 14350 2400 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 14450 2500 50  0001 C CNN
+	1    14400 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC7014 U?
+U 1 1 630F85A6
+P 14400 1300
+F 0 "U?" H 14400 1075 50  0001 C CNN
+F 1 "x" H 14400 1074 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 14400 1300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf" H 14400 1300 50  0001 C CNN
+	1    14400 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15300 1450 15300 1700
+Wire Wire Line
+	15300 1150 15300 1100
+$Comp
+L power:VCC #PWR?
+U 1 1 63067D5D
+P 15300 1100
+F 0 "#PWR?" H 15300 950 50  0001 C CNN
+F 1 "VCC" H 15317 1273 50  0000 C CNN
+F 2 "" H 15300 1100 50  0001 C CNN
+F 3 "" H 15300 1100 50  0001 C CNN
+	1    15300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 63067535
+P 15300 1300
+F 0 "R?" H 15370 1346 50  0001 L CNN
+F 1 "Tm" H 15370 1300 50  0000 L CNN
+F 2 "" V 15230 1300 50  0001 C CNN
+F 3 "~" H 15300 1300 50  0001 C CNN
+	1    15300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 60EA7095
+P 15700 1700
+F 0 "J?" H 15780 1696 50  0001 L CNN
+F 1 "x" H 15780 1651 50  0001 L CNN
+F 2 "" H 15700 1700 50  0001 C CNN
+F 3 "~" H 15700 1700 50  0001 C CNN
+	1    15700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 3000 15300 1700
+Wire Notes Line
+	700  700  15900 700 
+Wire Notes Line
+	15900 700  15900 9800
+Text Notes 9200 1850 0    100  ~ 0
+One IO pad\n\nOn 32/64-MC parts,\nalways included in MC\n\nOn larger parts, may be\nabsent in some MCs
+Text Notes 13800 7300 0    50   ~ 0
+Doesn't exist\nif no IO\nin this MC
+$Comp
+L syms:DG_LATCH U?
+U 1 1 64BCEDA6
+P 13100 2000
+F 0 "U?" H 13100 1911 50  0001 C CNN
+F 1 "DG_LATCH" H 13100 1820 50  0001 C CNN
+F 2 "" H 13100 2000 50  0001 C CNN
+F 3 "" H 13100 2000 50  0001 C CNN
+	1    13100 2000
+	1    0    0    1   
+$EndComp
+$Comp
+L syms:MUX2 U?
+U 1 1 64BD14D2
+P 12600 1900
+F 0 "U?" H 12600 1650 50  0001 C CNN
+F 1 "DG" H 12600 1900 50  0000 C CNN
+F 2 "" H 12500 1900 50  0001 C CNN
+F 3 "" H 12500 1900 50  0001 C CNN
+	1    12600 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12400 1200 12400 1900
+Connection ~ 12400 1900
+Wire Wire Line
+	12400 1900 12400 3300
+Wire Wire Line
+	12800 2000 12900 2000
+Wire Wire Line
+	13300 2000 13400 2000
+Wire Wire Line
+	13400 1800 12800 1800
+Wire Wire Line
+	13100 2200 13100 2300
+Wire Wire Line
+	13100 2300 12700 2300
+Text Label 12800 2300 0    50   ~ 0
+DG
+Text GLabel 12700 2300 0    50   Input ~ 0
+DG
+Text Notes 12800 1800 0    50   ~ 0
+0
+Text Notes 12800 2000 0    50   ~ 0
+1
+Wire Wire Line
+	13400 1800 13400 1900
+Connection ~ 13400 1900
+Wire Wire Line
+	13400 1900 13400 2000
+Wire Wire Line
+	12400 3300 12400 7200
+Wire Wire Line
+	5900 8900 9500 8900
+$Comp
+L syms:ORTERM U?
+U 1 1 5F768281
+P 9700 8900
+F 0 "U?" H 9725 9167 50  0001 C CNN
+F 1 "ORTERM" H 9700 9075 50  0000 C CNN
+F 2 "" H 9700 8900 100 0001 C CNN
+F 3 "" H 9700 8900 100 0001 C CNN
+	1    9700 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 7400 13500 7400
+Connection ~ 6100 2400
+Connection ~ 6300 3000
+Connection ~ 6500 3600
+Connection ~ 6700 4200
+Wire Wire Line
+	8500 9400 8500 11000
+Wire Wire Line
+	8700 10000 8700 11000
+Wire Wire Line
+	8900 10600 8900 11000
+Wire Wire Line
+	10000 8900 11300 8900
+Text Label 12600 4300 1    50   ~ 0
+XOR_out_MC0
+Text Label 12900 4300 1    50   ~ 0
+FF_out_MC0
+Text Label 12400 4300 1    50   ~ 0
+PAD_in_MC0
+Wire Wire Line
+	9700 4700 14300 4700
+Wire Wire Line
+	7500 6600 9700 6600
+Wire Wire Line
+	9700 6600 9700 4700
+Text Notes 5250 3400 0    50   ~ 0
+These pterms\naren't special
+Wire Notes Line
+	5200 4400 5900 4400
+Wire Notes Line
+	5900 2200 5200 2200
+Wire Notes Line
+	5200 2200 5200 4400
+Wire Notes Line
+	5900 2200 5900 4400
+Wire Notes Line
+	5200 4600 5200 6800
+Wire Notes Line
+	5200 6800 5900 6800
+Wire Notes Line
+	5900 6800 5900 4600
+Wire Notes Line
+	5900 4600 5200 4600
+Text Notes 5200 5850 0    50   ~ 0
+These pterms\ncan be shared\nacross the whole\nFB to control\nspecial functions
+Wire Notes Line
+	5200 7000 5200 8600
+Wire Notes Line
+	5200 8600 5900 8600
+Wire Notes Line
+	5900 8600 5900 7000
+Wire Notes Line
+	5900 7000 5200 7000
+Wire Notes Line
+	5200 9200 5200 10800
+Wire Notes Line
+	5200 10800 6000 10800
+Wire Notes Line
+	6000 10800 6000 9200
+Wire Notes Line
+	6000 9200 5200 9200
+$EndSCHEMATC
